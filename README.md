@@ -1,6 +1,6 @@
 # WordPressGithubExample
  
-## Version 1.2
+## Version 1.0
 Desscription of the project.
 
 ### Updates
