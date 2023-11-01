@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<h1>Index</h1>
+
 <!-- The Loop -->
 
 <!-- <h1>Index</h1> -->

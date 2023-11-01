@@ -1,16 +1,18 @@
 <?php wp_footer(); ?>
 
-<div class="container-fluid bg-dark">
+<div class="container-fluid bg-warning">
   <div class="row">
-    <div class="col">
-        <h1>Footer</h1>
-      <nav id="firstexample-footer-menu">
-        <?php
-          wp_nav_menu(array(
-            'theme_location' => 'footer-menu'
-          ));
-        ?>
-      </nav>
+    <div class="col-3">
+      <?php get_sidebar('first-footer'); ?>
+    </div>
+    <div class="col-3">
+      <?php get_sidebar('second-footer'); ?>
+    </div>
+    <div class="col-3">
+      <?php get_sidebar('third-footer'); ?>
+    </div>
+    <div class="col-3">
+      <?php get_sidebar('fourth-footer'); ?>
     </div>
   </div>
 </div>
